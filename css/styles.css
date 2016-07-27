@@ -168,3 +168,10 @@ footer {
   background-size: cover;
 }
 
+.baterista{
+  max-height: 350px;
+}
+
+.vocal{
+  max-height: 350px;
+}
