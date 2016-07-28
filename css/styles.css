@@ -168,10 +168,19 @@ footer {
   background-size: cover;
 }
 
-.baterista{
+.mdl-layout--large-screen-only.baterista{
   max-height: 350px;
+
 }
 
-.vocal{
-  max-height: 350px;
+.mdl-layout--large-screen-only.vocal{
+  max-height: 450px;
+}
+
+.mdl-layout--large-screen-only.baixista{
+  max-height: 430px;
+}
+
+.backg{
+  background-color: black;
 }
