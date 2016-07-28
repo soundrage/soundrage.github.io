@@ -184,3 +184,8 @@ footer {
 .backg{
   background-color: black;
 }
+
+
+.mdl-card__media{
+  background-color: #424242;
+  }
