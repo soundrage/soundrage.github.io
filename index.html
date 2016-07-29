@@ -22,7 +22,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="A portfolio template that uses Material Design Lite.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>#1zero</title>
+    <title>Number One Zero</title>
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/logobanda.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="images/logobanda.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/logobanda.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="shortcut icon" href="images/logobanda.png">
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.grey-pink.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
@@ -92,8 +107,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card mdl-cell--3-col-desktop">
-                    <div class="mdl-card__media">
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card mdl-cell--3-col-desktop mdl-layout--large-screen-only guitarrista">
+                    <div class="mdl-card__media" id="guitdeta">
                         <img class="article-image musicians" src=" images/guitarra.jpg" border="0" alt="">
                     </div>
                     <div class="mdl-card__title">
@@ -101,6 +116,29 @@
                     </div>
                     <div class="mdl-card__supporting-text">
                         Lead & Rhythm Guitar
+                    </div>
+                    <div class="mdl-tooltip mdl-tooltip--large" for="guitdeta">
+                        Dayvson comprou sua 1ª guitarra aos 17 anos. Aprendeu seus primeiros acordes com amigos e evoluiu sua técnica estudando em casa. Tem influências de bandas como Iron Maiden e Dream Theater e já fez tributos a Alice in Chains e Metallica que são bandas que estão no setlist do guitarrista.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a href="https://www.facebook.com/adriano.dayvson" class="mdl-button mdl-button--icon mdl-button--colored bt mdl-ripple-effect" target="_blank" id="fac1"><i class="fa fa-facebook-square"></i></a>
+                        <div class="mdl-tooltip" for="fac1">
+                             Facebook
+                        </div>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card mdl-cell--3-col-desktop mdl-layout--small-screen-only">
+                    <div class="mdl-card__media" id="guitdeta2">
+                        <img class="article-image musicians" src=" images/guitarra.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Adriano Dayvson</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Lead & Rhythm Guitar
+                    </div>
+                    <div class="mdl-tooltip mdl-tooltip--large" for="guitdeta2">
+                        Dayvson comprou sua 1ª guitarra aos 17 anos. Aprendeu seus primeiros acordes com amigos e evoluiu sua técnica estudando em casa. Tem influências de bandas como Iron Maiden e Dream Theater e já fez tributos a Alice in Chains e Metallica que são bandas que estão no setlist do guitarrista.
                     </div>
                     <div class="mdl-card__actions mdl-card--border">
                         <a href="https://www.facebook.com/adriano.dayvson" class="mdl-button mdl-button--icon mdl-button--colored bt mdl-ripple-effect" target="_blank" id="fac1"><i class="fa fa-facebook-square"></i></a>
@@ -144,7 +182,7 @@
                     </div>
                 </div>
                 <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card mdl-layout--large-screen-only baterista mdl-cell--3-col-desktop">
-                    <div class="mdl-card__media">
+                    <div class="mdl-card__media" id="batdeta">
                         <img class="article-image musicians" src=" images/bateria.jpg" border="0" alt="">
                     </div>
                     <div class="mdl-card__title">
@@ -152,6 +190,9 @@
                     </div>
                     <div class="mdl-card__supporting-text">
                         Drums & Backing Vocals
+                    </div>
+                    <div class="mdl-tooltip mdl-tooltip--large" for="batdeta">
+                        Hugo começou a tocar bateria aos 18 anos, quando comprou seu primeiro kit, e desenvolveu sua técnica como autodidata. Foi influenciado por grandes bandas do cenário do Trash Metal, como Slayer, Megadeth e Metallica, banda da qual ja realizou tributos.
                     </div>
                     <div class="mdl-card__actions mdl-card--border">
                         <a href="https://www.facebook.com/hugo.pimentel.79" class="mdl-button mdl-button--icon mdl-button--colored bt mdl-ripple-effect" target="_blank" id="fac2"><i class="fa fa-facebook-square"></i></a>
@@ -161,7 +202,7 @@
                     </div>
                 </div>
                 <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card mdl-cell--3-col-desktop mdl-layout--small-screen-only">
-                    <div class="mdl-card__media">
+                    <div class="mdl-card__media" id="batdeta1">
                         <img class="article-image musicians" src=" images/bateria.jpg" border="0" alt="">
                     </div>
                     <div class="mdl-card__title">
@@ -169,6 +210,9 @@
                     </div>
                     <div class="mdl-card__supporting-text">
                         Drums & Backing Vocals
+                    </div>
+                    <div class="mdl-tooltip mdl-tooltip--large" for="batdeta1">
+                        Hugo começou a tocar bateria aos 18 anos, quando comprou seu primeiro kit, e desenvolveu sua técnica como autodidata. Foi influenciado por grandes bandas do cenário do Trash Metal, como Slayer, Megadeth e Metallica, banda da qual ja realizou tributos.
                     </div>
                     <div class="mdl-card__actions mdl-card--border">
                         <a href="https://www.facebook.com/hugo.pimentel.79" class="mdl-button mdl-button--icon mdl-button--colored bt mdl-ripple-effect" target="_blank" id="fac2"><i class="fa fa-facebook-square"></i></a>
@@ -193,8 +237,6 @@
     </div>
     <script src="https://code.getmdl.io/1.1.3/material.min.js"></script>
     <!-- Submit the Form to Google Using "AJAX" -->
-    <script data-cfasync="false" type="text/javascript"
-  src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 </body>
 
 </html>
