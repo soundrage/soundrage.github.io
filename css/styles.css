@@ -174,11 +174,11 @@ footer {
 }
 
 .mdl-layout--large-screen-only.vocal{
-  max-height: 450px;
+  max-height: 480px;
 }
 
 .mdl-layout--large-screen-only.baixista{
-  max-height: 430px;
+  max-height: 520px;
 }
 
 .mdl-layout--small-screen-only > .mdl-tooltip{
