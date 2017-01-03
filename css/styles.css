@@ -31,8 +31,8 @@
 .portfolio-logo {
   background: url(../images/logobanda.jpeg) 50% no-repeat;
   background-size: cover;
-  height: 150px;
-  width: 150px;
+  height: 120px;
+  width: 160px;
   margin: auto auto 10px;
 }
 
@@ -228,6 +228,14 @@ visibility: hidden;
   background-image: url(../images/burburinhologo2.jpg);
   background-size: cover;
 }
+
+.demo-card-event.mdl-card.burbon {
+  width: 256px;
+  height: 256px;
+  background-image: url(../images/burburinhologo.jpg);
+  background-size: cover;
+}
+
 .demo-card-event > .mdl-card__actions {
   border-color: rgba(0, 0, 0, 0.8);
 }
@@ -251,3 +259,11 @@ visibility: hidden;
   color: #4d4d4d;
   font-weight: 800;
 }
+
+.gall{
+  background-image:url(../images/ensaios/DSC_2567_131.JPG);
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+  }
