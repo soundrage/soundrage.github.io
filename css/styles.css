@@ -113,6 +113,14 @@ img.article-image {
   height: auto;
 }
 
+.gallery figure{
+  -webkit-margin-after:0px;
+  -webkit-margin-before:0px;
+  -webkit-margin-end:0px;
+  -webkit-margin-start:0px;
+}
+
+
 .portfolio-max-width {
   max-width: 900px;
   margin: auto;
@@ -267,3 +275,10 @@ visibility: hidden;
     max-width: 300px;
     max-height: 300px;
   }
+
+  .mdl-tooltip.is-active {
+    animation: none;
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+}
