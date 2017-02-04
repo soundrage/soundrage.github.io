@@ -244,6 +244,14 @@ visibility: hidden;
   background-size: cover;
 }
 
+.demo-card-event.mdl-card.bergpool {
+  width: 256px;
+  height: 256px;
+  background-image: url(../images/bergpool.jpg);
+  background-size: cover;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
 .demo-card-event > .mdl-card__actions {
   border-color: rgba(0, 0, 0, 0.8);
 }
