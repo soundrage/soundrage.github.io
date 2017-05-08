@@ -252,6 +252,15 @@ visibility: hidden;
   background-color:rgba(0, 0, 0, 0.5);
 }
 
+
+.demo-card-event.mdl-card.dtrc {
+  width: 256px;
+  height: 256px;
+  background-image: url(../images/downtown190517.jpg);
+  background-size: cover;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
 .demo-card-event > .mdl-card__actions {
   border-color: rgba(0, 0, 0, 0.8);
 }
